@@ -94,7 +94,7 @@ header {
     position: absolute;
     width: 594px;
     height: 132px;
-    margin-top: 40px ;
+    margin-top: 40px;
     left: 663px;
 
     /* margin: 40px auto; */
@@ -125,7 +125,7 @@ header {
     letter-spacing: 0%;
     text-align: center;
     padding-top: 20px;
-    
+
     /* border: rgb(238, 4, 168) 2px solid; */
 }
 
@@ -144,7 +144,7 @@ header {
 #featured-flower {
     max-width: 1872px;
     height: 875px;
-   
+
     margin-top: 50px;
 
     /* border: rgb(255, 255, 255) 2px solid; */
@@ -168,7 +168,7 @@ header {
 .flower-one,
 .flower-two,
 .flower-three {
-    
+
     border-radius: 50% 50% 0 0;
     width: 400px;
     height: 400px;
@@ -198,6 +198,7 @@ header {
 
     /* border: red 2px solid; */
 }
+
 #flower-two-id>img {
     width: 310px;
     height: 350px;
@@ -214,7 +215,7 @@ header {
     margin: 50px auto;
     margin-left: 45px;
     align-items: center;
-    
+
     /* border: red 2px solid; */
 }
 
@@ -234,3 +235,64 @@ header {
     /* border: yellow 2px solid; */
 }
 
+/* logu styles sells suppert */
+
+#logu {
+    width: 70%;
+    height: 215px;
+    margin: 0% auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* gap: 50px; */
+
+    /* border: red 2px solid; */
+
+}
+
+.logu-continer {
+    display: flex;
+    padding: 50px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    /* align-items: center;
+    text-align: center; */
+
+    /* border: yellow 2px solid; */
+
+}
+
+.delivery-container,
+.local-container,
+.support-container {
+    height: 16px;
+    justify-content: center;
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 20px;
+
+}
+.delivery-container>img,
+.local-container>img,
+.support-container>img{
+    /* background-color: rebeccapurple; */
+    width: 70px;
+    
+
+    border: rgba(37, 41, 37, 0.205) 2px dashed;
+}
+
+.delivery-container>p,
+.local-container>p,
+.support-container>p{
+
+    padding: 20px;
+}
