@@ -19,15 +19,15 @@ header {
 
 /* sheared styles  */
 .btn-container {
-    
+
     border: none;
-    background: rgb(229, 84, 115)  ;
+    background: rgb(229, 84, 115);
 }
 
 /* header section styles */
 
-.header-container-btn{
-    background-color:rgb(229, 84, 115) ;
+.header-container-btn {
+    background-color: rgb(229, 84, 115);
     padding: 10px;
     margin-top: 20px;
     /* display: flex; */
@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -88,3 +88,149 @@ header {
     text-align: left;
     padding-top: 30px;
 }
+
+/* our featured flowers styles  */
+.flower-container {
+    position: absolute;
+    width: 594px;
+    height: 132px;
+    margin-top: 40px ;
+    left: 663px;
+
+    /* margin: 40px auto; */
+    /* right: 663px; */
+    /* top: 1028px; */
+    /* bottom: 3707px; */
+
+    /* border: rgb(10, 255, 23) 2px solid; */
+
+}
+
+.flower-content {
+    width: 90%;
+    height: 80%;
+    margin: 20px auto;
+    /* margin-top: 100px; */
+
+    border: rgb(255, 255, 255) 2px solid;
+
+}
+
+.flower-container-subtitle {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 20px;
+    
+    /* border: rgb(238, 4, 168) 2px solid; */
+}
+
+.flower-container-taitle {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    /* border: darkblue 2px solid; */
+}
+
+#featured-flower {
+    max-width: 1872px;
+    height: 875px;
+   
+    margin-top: 50px;
+
+    /* border: rgb(255, 255, 255) 2px solid; */
+}
+
+.flower-container-image {
+
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 400px;
+    margin: 290px auto;
+    /* border: rgb(0, 47, 255) 2px solid; */
+
+
+}
+
+.flower-one,
+.flower-two,
+.flower-three {
+    
+    border-radius: 50% 50% 0 0;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 400px;
+    /* border: black 2px solid; */
+}
+
+.flower-one {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.flower-two {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.flower-three {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+#flower-one-id>img {
+
+    margin: 50px auto;
+    width: 310px;
+    height: 350px;
+    margin-left: 45px;
+    align-items: center;
+
+    /* border: red 2px solid; */
+}
+#flower-two-id>img {
+    width: 310px;
+    height: 350px;
+    margin: 50px auto;
+    margin-left: 45px;
+    align-items: center;
+
+    /* border: red 2px solid; */
+}
+
+#flower-three-id>img {
+    width: 310px;
+    height: 350px;
+    margin: 50px auto;
+    margin-left: 45px;
+    align-items: center;
+    
+    /* border: red 2px solid; */
+}
+
+#featured-flower>footer {
+    width: 90%;
+    height: 5%;
+    margin: auto;
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-evenly;
+    /* border: yellow 2px solid; */
+}
+
