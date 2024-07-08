@@ -17,14 +17,20 @@ header {
 
 }
 
-/* sheared styles  */
+/* sheared styles ==========================================================  */
 .btn-container {
-
-    border: none;
+    border-radius: 8px;
     background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
-/* header section styles */
+/* header section styles ==================================================== */
 
 .header-container-btn {
     background-color: rgb(229, 84, 115);
@@ -89,7 +95,7 @@ header {
     padding-top: 30px;
 }
 
-/* our featured flowers styles  */
+/* our featured flowers styles ===========================================  */
 .flower-container {
     position: absolute;
     width: 594px;
@@ -235,7 +241,7 @@ header {
     /* border: yellow 2px solid; */
 }
 
-/* logu styles sells suppert */
+/* logu styles sells suppert ========================================= */
 
 #logu {
     width: 70%;
@@ -280,19 +286,81 @@ header {
     padding: 20px;
 
 }
+
 .delivery-container>img,
 .local-container>img,
-.support-container>img{
-    /* background-color: rebeccapurple; */
+.support-container>img {
+
     width: 70px;
-    
+
 
     border: rgba(37, 41, 37, 0.205) 2px dashed;
 }
 
 .delivery-container>p,
 .local-container>p,
-.support-container>p{
+.support-container>p {
 
     padding: 20px;
+}
+
+
+/* sale up 25 % off styles =============================== */
+
+#sale-up {
+    width: 1855px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+    /* border: red 2px solid; */
+}
+
+.sale-up-container {
+    width: 70%;
+    height: 80%;
+    margin: 0% auto;
+    /* border: green 2px solid; */
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+
+.sale-up-container-text {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-up-container-text-title {
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px;
+}
+
+.sale-up-container-text-subtitle {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#sign-up-btn {
+    border-radius: 5px;
+    margin-top: 30px;
+    background: rgb(229, 84, 115);
+    padding: 15px 30px;
 }
