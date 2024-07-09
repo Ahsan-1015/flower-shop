@@ -8,7 +8,7 @@
 }
 
 header {
-    max-width: 1872px;
+    max-width: 1900px;
     height: 850px;
     background: rgba(229, 84, 115, 0.1);
 
@@ -308,7 +308,7 @@ header {
 /* sale up 25 % off styles =============================== */
 
 #sale-up {
-    width: 1855px;
+    width: 1900px;
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -363,4 +363,66 @@ header {
     margin-top: 30px;
     background: rgb(229, 84, 115);
     padding: 15px 30px;
+}
+
+/* instragram styles ========================= */
+
+#instagram {
+    max-width: 100%;
+    margin: 0% auto;
+    padding-top: 20px;
+
+}
+
+.instagram-container {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 594px;
+    height: 132px;
+    margin: 0% auto;
+    /* border: red 2px solid; */
+
+}
+
+.instagram-container-text-title {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+}
+
+.instagram-container-text-subtitle {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-top: 10px;
+    /* text-align: center; */
+}
+
+.instagram-container-image {
+    width: 70%;
+    height: 400px;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    /* border: green 2px solid; */
+
+}
+
+.instagram-container-image>img{
+    width: 300px;
+    height: 350px;
+    margin: 10px auto;
+
+
+
+/* border: rgb(104, 11, 226) 2px solid; */
 }
